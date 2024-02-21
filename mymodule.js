@@ -21,7 +21,7 @@ const server = http.createServer((req, res) => {
     console.log(req.url);
     res.setHeader('Content-Type', 'text/html')
 
-    let myurl = './lab/views/'
+    let myurl = './views/'
     if (req.url == '/') {
         myurl += 'index.html'
         res.statusCode = 200
