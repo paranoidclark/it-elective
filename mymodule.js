@@ -1,4 +1,4 @@
-// const fullname = ["Juan dela Cruz", "Pedro Penduko", "Tiagong Akyat"]
+cd // const fullname = ["Juan dela Cruz", "Pedro Penduko", "Tiagong Akyat"]
 
 // const students = [
 //     { name: fullname[0], age: 18, course: 'IT' },
