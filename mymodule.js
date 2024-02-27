@@ -29,6 +29,12 @@ const server = http.createServer((req, res) => {
     } else if (req.url == '/about') {
         myurl += 'about.html'
         res.statusCode = 200
+    } else if (req.url == '/portfolio') {
+        myurl += 'portfolio.html'
+        res.statusCode = 200
+    } else if (req.url == '/project') {
+        myurl += 'project.html'
+        res.statusCode = 200
     } else {
         myurl += 'error.html'
         res.statusCode = 404
